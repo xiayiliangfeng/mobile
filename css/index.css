@@ -1,0 +1,211 @@
+.index-banner{
+    position:relative;
+    margin:0 auto;
+    overflow: hidden;
+    font-size:0px;
+}
+.banner-img img{
+    width:100%;
+    min-width: 750px;
+    /* max-width: 1120px; */
+}
+.text-container{
+    width:100%;
+    position:absolute;
+    top:50%;
+    margin-top:-131px;
+    left:0px;
+}
+.text-container .banner-text-center{
+    width:1120px;
+    margin:0 auto;
+}
+.banner-text{
+    color:#fff;
+}
+.banner-text .text-title{
+    font-size:48px;
+    
+}
+.banner-text .text-des{
+    margin-top:18px;
+    font-size:32px;
+}
+.banner-text .text-des .sym{
+    width:11px;
+    height:28px;
+    margin:0 14px;
+}
+.banner-text .text-button{
+    margin-top:20px;
+    font-size:20px;
+    width:162px;
+    padding:10px 36px;
+    border:1px solid #fff;
+}
+.banner-tab{
+    width:100%;
+    position:absolute;
+    bottom:20px;
+}
+.banner-tab .tab-btn{
+    margin:0 auto;
+    font-size:0px;
+    width:92px;
+}
+.banner-tab .tab-btn .tab-btn-item{
+    display: inline-block;
+    margin-right:10px;
+    width:10px;
+    height:10px;
+    border:1px solid #fff;
+    border-radius:50%;
+
+}
+.banner-tab .tab-btn .active{
+    background:#fff;
+}
+/*我们的课程 */
+.index-main{
+    background:#f7f7f7;
+    margin:0px;
+    padding-bottom:42px;
+    overflow: hidden;
+}
+.index-main .main-header{
+    text-align: center;
+    padding-top:40px;
+}
+.index-main .main-header .main-header-title{
+    font-size:30px;
+    color:#cd995a;
+}
+.index-main .main-header .main-header-des{
+    font-size:18px;
+    color:#999;
+}
+.index-main .main-content{
+    margin-top:38px;
+}
+.index-main .courseL{
+    float:left;
+    padding-right:16px;
+}
+.index-main .courseR{
+    float:right;
+    padding-left:16px;
+}
+.index-main .courseL,.index-main .courseR{
+    width:50%;
+}
+.index-main .course-item{
+    width:544px;
+    height:282px;
+    padding:15px 26px 15px 14px;
+    background: #fff;
+    margin-bottom:10px;
+}
+.index-main  .course-item .course-img{
+    width:300px;
+    height:252px;
+    float:left;
+}
+.index-main  .course-item .course-content{
+    float:right;
+    width:188px;
+    height:252px;
+    padding-top:10px;
+}
+.index-main  .course-item .course-content .course-content-title .zh{
+    font-size:24px;
+    color:#333333;
+    line-height: 23px;
+}
+.index-main  .course-item .course-content .course-content-title .empty{
+    height: 11px;
+}
+.index-main  .course-item .course-content .course-content-title .en{
+    font-size:14px;
+    color:#c2c2c2;
+    font-weight: 100;
+    line-height: 11px;
+}
+.index-main  .course-item .course-content .course-content-des{
+    margin-top:18px;
+    padding-top:20px;
+    border-top:1px solid #e9e9e9;
+    color:#919191;
+    font-size:14px;
+    line-height:23px;
+}
+.index-main  .course-item .course-content .course-content-button{
+    margin-top:30px;
+    float:right;
+    width:100px;
+    height:34px;
+    text-align: center;
+    line-height: 34px;
+    border:1px solid #cd995a;
+    border-radius:2px;
+    font-size:14px;
+    color:#cd995a;
+}
+.index-main  .course-item .course-content .active{
+    background:#cd995a;   
+    color:#fff;     
+}
+/* 学员专区 */
+.index-special{
+    width:100%;
+    position:relative;
+    overflow: hidden;
+}
+.index-special .special-img{
+    font-size:0px;
+    /* background:#7f6545; */
+}
+.index-special .special-img img{
+    width:100%;
+    min-width: 750px;
+    /* max-width: 1120px; */
+}
+.index-special .special-container{
+    width:100%;
+    position:absolute;
+    top:50%;
+    margin-top:-102px;
+    left:0px;
+    
+}
+.index-special .special-container .special-text{
+    width:1120px;
+    margin:0 auto;
+    text-align: center;
+    color:#fff;    
+}
+.index-special .special-text .special-title .title-zh{
+    font-size:30px;
+}
+.index-special .special-text .special-title .title-en{
+    font-size:16px;
+}
+.index-special .special-text .special-des{
+    width:490px;
+    text-align: center;
+    margin:0 auto;
+    margin-top:30px;
+    font-size:14px;
+    line-height: 20px;
+}
+.index-special .special-text .special-button{
+    margin:0 auto;
+    margin-top:40px;
+    width:100px;
+    height:34px;
+    line-height:34px;
+    border:1px solid #cd995a;
+    border-radius:2px;
+    background:#cd995a;
+    font-size:14px;
+}
+

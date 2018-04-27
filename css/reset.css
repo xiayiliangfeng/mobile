@@ -1,0 +1,35 @@
+body,div,a,p,ul,ol,li,h1,h2,h3,h4,h5,input,form,textarea,dl,dt,dd,span{
+    padding:0px;
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: #007e7e;
+}
+a:visited{
+    color:#333;
+}
+a:hover{
+    color:#0d5353;
+}
+ul,li,ol{
+ list-style: none;
+}
+.clearfix:after,.clearfix:before{
+    content:"";
+    display:block;
+    clear:both;
+    height:0px;
+    visibility:hidden;
+}
+.clearfix{
+    zoom:1;
+}
+div,ul,li{
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+}

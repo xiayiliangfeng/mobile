@@ -1,0 +1,295 @@
+
+@media screen and (max-width:1120px) {
+    .mobile-container{
+        margin:0 auto;
+        width:9.2rem;
+    }
+    /* header */
+    .mobile-header{
+        height:1.3333rem;
+        background: #fff;
+    }
+    .header-log{
+        float:left;
+    }
+    .header-menu{
+        float:right;
+    }
+    .header-log a{
+        margin-top:0.4267rem;
+        display:inline-block;
+        width:2.16rem;
+        height:0.5333rem;
+    }
+    .header-log a img{
+        width:100%;
+    }
+    .header-menu .menu-button{
+        display:inline-block;
+        width:0.4rem;
+        height:0.3733rem;
+        margin-top:0.48rem;
+    }
+    .header-menu .menu-button img{
+        width:100%;
+    }
+    /* 下拉菜单 */
+    .header-menu-row{
+        display:none;
+    }
+    .header-menu-row .closeBtn{
+        float:right;
+        width:0.4rem;
+        height:0.4rem;
+        line-height:0.6667rem;
+    }
+    .header-menu-col{
+        height:0.6667rem;
+        font-size:0.2667rem;
+        color:#838383;
+        line-height:0.6667rem;
+    }
+    /* banner */
+    .mobile-banner{
+        margin:0 auto;
+        font-size:0px;
+        overflow: hidden;
+        position:relative;
+        color:#fff;
+    }
+    .banner-img{
+        width:100%;
+    }
+    .banner-img img{
+        width:100%;
+    }
+    .banner-container{
+        width:9.2rem;
+        position:absolute;
+        top:50%;
+        margin-top:-1.52rem;
+        left:0.4rem;
+    }
+    .banner-text .text-title{
+        width:5.52rem;
+        font-size:0.5172rem;
+        line-height:0.56rem;
+    }
+    .banner-text .text-des{
+        margin-top:0.2667rem;
+        font-size:0.4267rem;
+        line-height:0.4533rem;
+    }
+    .banner-text .text-button{
+        margin-top:0.64rem;
+        margin-left:0.04rem;
+        width:2.1333rem;
+        height:0.6667rem;
+        text-align:center;
+        line-height:0.6667rem;
+        border:0.0133rem solid #fff;
+        font-size:0.3467rem;
+    }
+    .banner-tab{
+        position:absolute;
+        bottom:0.2667rem;
+        width:100%;
+    }
+    .banner-tab .tab-btn{
+        font-size:0px;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+    }
+    .banner-tab .tab-btn .tab-btn-item{
+        display:inline-block;
+        margin-right:0.1067rem;
+        width:0.1867rem;
+        height:0.1867rem;
+        border:0.0133rem solid #fff;
+        border-radius:50%;
+    }
+    .banner-tab .tab-btn .active{
+        background:#fff;
+    }
+    /* 我们的课程 */
+    .mobile-main{
+        background:#f1f1f1;
+        padding-bottom:0.2667rem;       
+    }
+    .mobile-main .main-title{
+        height:1.84rem;
+        text-align: center;
+        padding: 0.5067rem 0rem;
+    }
+    .mobile-main .main-title .title-zh{
+        font-size:0.48rem;
+        line-height:0.48rem;
+    }
+    .mobile-main .main-title .title-en{
+        font-size:0.2667rem;
+        line-height:0.32rem;
+    }
+    .main-content .content-list .list-item{
+        width:100%;
+        background:#fff;
+        padding:0.4rem 0.4rem 0.5333rem 0.4rem;
+        margin-bottom:0.2667rem;
+    }
+    .main-content .content-list .list-item:last-child{
+        margin-bottom:0px;
+    }
+    .main-content .content-list .list-item-container{
+        width:9.2rem;
+        margin:0 auto;
+    }
+    .main-content .content-list .content-img{
+        width:100%;
+    }
+    .main-content .content-list .content-img img{
+        font-size:0px;
+        width:100%;
+    }
+    .main-content .content-text .text-title{
+        padding-top:0.3733rem;
+        padding-bottom:0.3733rem;     
+    }
+    .main-content .content-text .text-title .text-title-zh{
+        font-size:0.4267rem;
+        color:#484848;
+    }
+    .main-content .content-text .text-title .text-title-en{
+        font-size:0.2667rem;
+        color:#afafaf;
+        font-weight:100;
+    }
+    .main-content .content-text .text-des{
+        border-top:0.0133rem solid #ececec;
+        padding-top:0.4rem;
+        font-size:0.32rem;
+        color:#717171;
+        line-height:0.4rem;
+        margin-bottom:0.5067rem;
+    }
+    .main-content .content-text .text-button{
+        width:2.1067rem;
+        height:0.7733rem;
+        border:0.0133rem solid #cca46e;
+        border-radius:0.0267rem;
+        font-size:px;
+        color:#fff;
+        background:#cca46e;
+        float:right;
+        line-height:0.7733rem;
+        text-align: center;
+    }
+    /* 学员专区 */
+    .mobile-special{
+        overflow: hidden;
+        font-size:0px;
+        position:relative;
+        margin:0 auto;
+    }
+    .mobile-special .special-img img{
+        width:100%;
+    }
+    .mobile-special .special-text{
+        text-align: center;
+        position:absolute;
+        top:50%;
+        left:0px;
+        width:100%;
+        margin-top:-2.08rem;
+        color:#fff;
+    }
+    .special-text .special-title .title-zh{
+        font-size:0.48rem;
+        line-height:0.5333rem;        
+    }
+    .special-text .special-title .title-en{
+        font-size:0.2667rem;
+        line-height:0.4533rem;
+        font-weight:100;
+        font-family: Gotham Book;
+    }
+    .special-text .special-des{
+        margin-top:0.48rem;
+        font-size:0.32rem;
+        line-height:0.48rem;
+    }
+    .special-text .special-button{
+        margin:0 auto;
+        margin-top:0.48rem;
+        width:2.6667rem;
+        height:0.7467rem;
+        font-size:0.3467rem;
+        background:#cca46e;
+        border:0.0133rem solid #cca46e;
+        border-radius:2px;
+        line-height:0.7467rem;
+    }
+    /* 咨询热线 */
+    .mobile-call{
+        width:100%;
+        padding:0.2667rem 0.4rem;
+        overflow: hidden;
+        position:fixed;
+        bottom:1.69rem;
+        background:#fff;
+    }
+    .mobile-call .call-btn{
+        font-size:0px;
+        width:10rem;
+    }
+    .mobile-call .call-btn-item{
+        display:inline-block;
+        width:2.5333rem;
+        height:0.8rem;
+        color:#cca46e;
+        border:1px solid #cca46e;
+        border-radius:2px;
+        line-height:0.8rem;
+        font-size:0.2667rem;
+        text-align:center;  
+        margin-right:0.8rem;              
+    }
+    .mobile-call .call-btn-item .icon{
+        display:inline-block;
+        width:0.2667rem;
+        height:0.2667rem;
+        margin-right:0.1333rem;        
+    }
+    .mobile-call .call-btn-item .icon img{
+        width:100%;
+    }
+    /* footer */
+    .mobile-footer{
+        height:1.68rem;
+        background:#262a2d;
+        color:#bebebe;
+        font-weight:200;
+    }
+    .mobile-footer .copyright{
+        line-height: 1.68rem;
+        font-size:0.2667rem;
+        text-align: center;
+        font-family: Adobe 黑体 Std R;
+    }
+    /* .height{
+        height:1.3333rem;
+    } */
+    @media screen and (max-width:450px) {
+        /* .mobile-footer .copyright{
+            width:100%;
+        } */
+        .mobile-footer .copyright {
+            /* width:320px; */
+            width:14.28rem;
+            margin-left:-2.1333rem;
+            line-height: 1.68rem;
+            font-size:0.2667rem;
+            -webkit-transform: scale(0.7);
+            font-family: Adobe 黑体 Std R;
+        }
+    }
+}
